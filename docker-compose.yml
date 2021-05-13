@@ -1,0 +1,18 @@
+---
+# docker-compose for jupyter stuff with Socorro.
+#
+# Note: Requires docker-comopse 1.10+.
+version: "2"
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:ubuntu-20.04
+    env_file:
+      - my.env
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    entrypoint: /home/jovyan/work/bin/entrypoint.sh
+    command: jupyter
