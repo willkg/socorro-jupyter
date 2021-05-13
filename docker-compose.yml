@@ -5,7 +5,10 @@
 version: "2"
 services:
   jupyter:
-    image: jupyter/scipy-notebook:ubuntu-20.04
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: local/jupyter_app
     env_file:
       - my.env
     environment:
@@ -14,5 +17,4 @@ services:
       - "8888:8888"
     volumes:
       - .:/home/jovyan/work
-    entrypoint: /home/jovyan/work/bin/entrypoint.sh
-    command: jupyter
+    command: ["jupyter"]
