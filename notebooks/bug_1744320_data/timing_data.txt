@@ -1,0 +1,11 @@
+Used Grafana Explore to look at:
+
+* processor.rule.act.timing for environment=prod, rule=BreakpadStackwalkerRule2015, mean value, mean interval
+* processor.rule.act.timing for environment=prod, rule=BreakpadStackwalkerRule2015, 95% value, mean interval
+* processor.rule.act.timing for environment=stage, rule=MinidumpStackwalkRule, mean value, mean interval
+* processor.rule.act.timing for environment=stage, rule=MinidumpStackwalkRule, 95% value, mean interval
+
+From 2021-11-20 00:00:00 to 2021-12-05 23:59:59 UTC (pretty sure this is UTC,
+but it's not labeled in the interface).
+
+Timings captured on 2021-12-06 by willkg.
