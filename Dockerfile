@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:ubuntu-20.04@sha256:e762555e4d39bd9aa65ddcb710b7ad3b7ea1d363af07d00063fbd699e2c7fba7
+FROM jupyter/scipy-notebook:ubuntu-20.04@sha256:b6a4ce777b837496d5612b7ce4efba9aa015576cb6993817721b8d293a7c2a3c
 
 COPY requirements.txt /tmp
 RUN pip install -U pip && \
