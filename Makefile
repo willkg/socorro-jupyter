@@ -7,7 +7,8 @@
 include my.env
 export
 
-DC := $(shell which docker-compose)
+DOCKER := $(shell which docker)
+DC=${DOCKER} compose
 
 .DEFAULT_GOAL := help
 .PHONY: help
