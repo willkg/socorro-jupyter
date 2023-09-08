@@ -1,0 +1,53 @@
+signature,count
+OOM | small,53363
+OOM | large | mozalloc_abort | xul.dll | _PR_NativeRunThread | pr_root,18189
+xul.dll | _PR_NativeRunThread | pr_root,10265
+js::gc::detail::CellHasStoreBuffer,6426
+OOM | large | xul.dll | _PR_NativeRunThread | pr_root,5783
+OOM | large | __delayLoadHelper2 | _tailMerge_dbghelp.dll | MozStackWalk,5509
+xul.dll,5249
+mozilla::dom::quota::QuotaManager::Shutdown::<T>::operator(),4458
+OOM | large | mozalloc_abort | xul.dll | do_main,4160
+OOM | large | mozalloc_abort | moz_xmalloc | mozilla::JSHolderMap::Put,3141
+EnterJit,3063
+OOM | large | NS_ABORT_OOM | mozilla::gfx::SourceSurfaceSharedDataWrapper::Map,2576
+OOM | large | js::AutoEnterOOMUnsafeRegion::crash | js::AutoEnterOOMUnsafeRegion::crash | JS::shadow::Object::numFixedSlots,2308
+js::gc::HeaderWord::get,2284
+OOM | large | js::AutoEnterOOMUnsafeRegion::crash | js::AutoEnterOOMUnsafeRegion::crash | js::gc::TenuringTracer::traverse,2106
+AllocInfo::GetInChunk,2092
+js::gc::MarkBitmap::markIfUnmarked,2072
+xul.dll | do_main,1820
+AsyncShutdownTimeout | IOUtils: waiting for profileBeforeChange IO to complete | JSON store: writing data for 'targeting.snapshot',1767
+OOM | large | mozalloc_abort | xul.dll | BaseThreadInitThunk,1708
+OOM | large | mozalloc_abort | firefox_on_glean::ffi::custom_distribution::fog_custom_distribution_accumulate_samples,1315
+shutdownhang | mozilla::SpinEventLoopUntil | nsThread::Shutdown | nsThreadManager::ShutdownNonMainThreads,1279
+shutdownhang | (anonymous namespace)::TrueTypeFontMetricsBuilder::GetBlackBox,1213
+xul.dll | BaseThreadInitThunk,1193
+gfxFontGroup::GetDefaultFont,1144
+AsyncShutdownTimeout | profile-change-teardown | StorageSyncService: shutdown,1082
+mozilla::dom::ServiceWorkerRegistrar::GetShutdownPhase,1075
+OOM | large | mozalloc_abort | webrender_api::display_list::DisplayListBuilder::push_item_to_section,1040
+"AsyncShutdownTimeout | IOUtils: waiting for profileBeforeChange IO to complete | CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written,JSON store: writing data for 'broadcastlisteners',JS...",1034
+mozilla::ipc::FatalError | mozilla::ipc::IProtocol::HandleFatalError | mozilla::ipc::IProtocol::FatalError | mozilla::ipc::PickleFatalError | IPC::MessageReader::FatalError,941
+OOM | large | xul.dll | do_main,932
+OOM | large | mozalloc_abort | alloc::vec::Vec<T>::push,873
+OOM | large | xul.dll,779
+"AsyncShutdownTimeout | IOUtils: waiting for profileBeforeChange IO to complete | CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written,SessionFile: Finish writing Session Restore data,Ses...",738
+OOM | large | mozalloc_abort | webrender::renderer::Renderer::render_impl,727
+AsyncShutdownTimeout | AddonManager: Waiting to start provider shutdown. | AddonRepository Background Updater,709
+OOM | large | NS_ABORT_OOM | nsTSubstring<T>::AllocFailed | nsTSubstring<T>::Append | TextToNode,681
+mozilla::ipc::FatalError | mozilla::ipc::IProtocol::HandleFatalError | mozilla::ipc::IProtocol::FatalError | mozilla::ipc::PickleFatalError | IPC::MessageWriter::FatalError,667
+js::NativeObject::getDenseInitializedLength,652
+js::gc::TenuredCell::zoneFromAnyThread,642
+OOM | large | mozalloc_abort | moz_xmalloc | xul.dll | _PR_NativeRunThread | pr_root,634
+"AsyncShutdownTimeout | IOUtils: waiting for profileBeforeChange IO to complete | CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written,JSON store: writing data for 'broadcastlisteners',Se...",629
+OOM | large | js::AutoEnterOOMUnsafeRegion::crash | js::AutoEnterOOMUnsafeRegion::crash | JS::Value::bitsFromTagAndPayload,602
+AsyncShutdownTimeout | AddonManager: Waiting to start provider shutdown. | EnvironmentAddonBuilder,591
+js::gc::AllocSite::incTenuredCount,581
+OOM | large | mozalloc_abort | fog_control::fog_serialize_ipc_buf,543
+shutdownhang | mozilla::SpinEventLoopUntil | nsThreadPool::ShutdownWithTimeout,525
+EdgePool::Iterator::operator*,504
+_tailMerge_hid.dll,468
+AsyncShutdownTimeout | IOUtils: waiting for sendTelemetry IO to complete | TelemetryController: shutting down,453
+total,248342
+--,85757
